@@ -6,92 +6,36 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>4f33cac2-889c-4612-8af0-c6395c8eb879</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>30b6a001-4eb0-4fe0-a183-8c6005796e18</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/UserLoginData</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>30b6a001-4eb0-4fe0-a183-8c6005796e18</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
       <variableId>36df44d1-19b7-454b-bab0-182b04b7eb82</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d95997dd-6099-4655-b096-85aea5e63c68</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9b11bd11-e228-4a37-8eb0-c9f986ba4b35</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>72085b4d-6312-4178-8c8e-96d46d20ac3e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8171cccb-de7e-415e-b0fc-a37a1a2511c8</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8e8c8f3e-8582-4b55-8d26-bc29141e838d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>30b6a001-4eb0-4fe0-a183-8c6005796e18</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
       <variableId>46e03e5a-3ff1-40b0-a113-7527ebfce550</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'standard_user'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>36df44d1-19b7-454b-bab0-182b04b7eb82</id>
       <masked>false</masked>
-      <name>standard_user</name>
+      <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'lock_out_user'</defaultValue>
-      <description></description>
-      <id>d95997dd-6099-4655-b096-85aea5e63c68</id>
-      <masked>false</masked>
-      <name>lock_out_user</name>
-   </variable>
-   <variable>
-      <defaultValue>'problem_user'</defaultValue>
-      <description></description>
-      <id>9b11bd11-e228-4a37-8eb0-c9f986ba4b35</id>
-      <masked>false</masked>
-      <name>problem_user</name>
-   </variable>
-   <variable>
-      <defaultValue>'performance_glitch_user'</defaultValue>
-      <description></description>
-      <id>72085b4d-6312-4178-8c8e-96d46d20ac3e</id>
-      <masked>false</masked>
-      <name>performance_glitch_user</name>
-   </variable>
-   <variable>
-      <defaultValue>'error_user'</defaultValue>
-      <description></description>
-      <id>8171cccb-de7e-415e-b0fc-a37a1a2511c8</id>
-      <masked>false</masked>
-      <name>error_user</name>
-   </variable>
-   <variable>
-      <defaultValue>'visual_user'</defaultValue>
-      <description></description>
-      <id>8e8c8f3e-8582-4b55-8d26-bc29141e838d</id>
-      <masked>false</masked>
-      <name>visual_user</name>
-   </variable>
-   <variable>
-      <defaultValue>'secret_sauce'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>46e03e5a-3ff1-40b0-a113-7527ebfce550</id>
       <masked>false</masked>

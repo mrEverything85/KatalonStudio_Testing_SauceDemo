@@ -16,47 +16,26 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TS_TC01_Login_Success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>42479871-fccd-4e75-8a0f-8cda61eed1b0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/UserLoginData1</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>42479871-fccd-4e75-8a0f-8cda61eed1b0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
          <variableId>36df44d1-19b7-454b-bab0-182b04b7eb82</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d95997dd-6099-4655-b096-85aea5e63c68</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9b11bd11-e228-4a37-8eb0-c9f986ba4b35</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>72085b4d-6312-4178-8c8e-96d46d20ac3e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8171cccb-de7e-415e-b0fc-a37a1a2511c8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8e8c8f3e-8582-4b55-8d26-bc29141e838d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>42479871-fccd-4e75-8a0f-8cda61eed1b0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>46e03e5a-3ff1-40b0-a113-7527ebfce550</variableId>
       </variableLink>
    </testCaseLink>
@@ -65,6 +44,15 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TS_TC05_Logout</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>19d4b977-92e8-4cb4-b090-0f710bbf6c0c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/UserLoginData1</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>New Test Data</name>
+   <name>UserLoginData1</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>6be35db8-29b3-49b3-9f96-f008c4e71cd2</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataFileGUID>32102140-55ed-4d04-9c02-eb93b22f7c83</dataFileGUID>
+   <dataSourceUrl>E:\SauceDemoTesting\SauceDemoTesting\User_data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>Sheet2</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
